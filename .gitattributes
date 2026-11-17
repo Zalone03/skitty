@@ -1,0 +1,11 @@
+# Finais de linha consistentes entre Windows, Mac e Linux
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+android/gradlew text eol=lf
+
+# Binarios
+*.png binary
+*.jpg binary
+*.apk binary
+*.jar binary

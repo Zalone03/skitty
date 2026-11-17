@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# A API fica em netlify/functions/api.mjs e responde em /api/* (veja o
+# "config.path" no final daquele arquivo). O app nao usa rotas no navegador,
+# entao nao precisa de redirect de SPA.

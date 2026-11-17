@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+
+# Build do site
+dist/
+*.zip
+
+# Netlify CLI
+.netlify/
+
+# APKs gerados na raiz (o de public/ e o link "Baixar app Android" do site)
+/*.apk
+
+# Variaveis locais (as de .env.android sao publicas e ficam no repositorio)
+.env.local
+.env.*.local
+
+# Editores e sistema
+.vscode/
+.idea/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# O resto do Android (build, .gradle, local.properties) esta em android/.gitignore
